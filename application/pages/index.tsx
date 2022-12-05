@@ -29,7 +29,7 @@ const Home: NextPage = () => {
   if (!address) {
     return (
       <div className={styles.container}>
-        <ConnectWallet colorMode="dark" />
+        <ConnectWallet colorMode="light" />
       </div>
     );
   }
